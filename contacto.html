@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechArt Hub</title>
+    <link rel="stylesheet" href="CSS/contacto.css">
+</head>
+<body>
+    <header>
+        <img src="IMG/logo.png" alt="Logo de TechArt Hub" class="logo">
+        <nav>
+            <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="qs.html">¿Quiénes Somos?</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1 class="cont">Contáctanos</h1>
+        <p>
+            Estamos para transformar tus ideas en realidad. <br>
+            Contáctanos y descubre cómo la tecnología y el arte se 
+            unen para crear algo extraordinario.
+        </p>
+
+        <form id="contact-form" action="/enviar-formulario" method="post" class="contact-form">
+            <fieldset>
+                <legend>Formulario de Contacto</legend>
+        
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+        
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" required>
+        
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>Pie de Página &copy; 2024</p>
+    </footer>
+    <script src="JS/contacto.js"></script>
+</body>
+</html>

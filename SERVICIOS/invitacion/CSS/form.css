@@ -1,0 +1,51 @@
+body{
+    background-color: rgba(215, 35, 113, 0.225);  
+}
+/*ASISTENCIA*/
+#ASISTENCIA{
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(215, 35, 113, 0.225);
+}
+form {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fce4ec; /* Fondo rosa claro */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #d81b60; /* Texto rosa oscuro */
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #d81b60; /* Borde rosa oscuro */
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #d81b60; /* Botón rosa oscuro */
+    color: #ffffff; /* Texto blanco */
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #ad1457; /* Color más oscuro al pasar el mouse */
+  }
+  
+/*RESPONSIVE*/
+@media (max-width: 760px) {
+    /*ASISTENCIA*/
+    #ASISTENCIA{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,71 @@
+@font-face{
+    font-family: them;
+    src: url(/SERVICIOS/invitacion/FUEN/cydoniacentury.ttf);
+}
+@font-face{
+    font-family: moora;
+    src: url(/SERVICIOS/invitacion/FUEN/Barett\ Street.ttf);
+}
+@font-face{
+    font-family: ala;
+    src: url(/SERVICIOS/invitacion/FUEN/Barett\ Street.ttf);
+}
+@font-face{
+    font-family: mini;
+    src: url(/SERVICIOS/invitacion/FUEN/Country\ Wedding.ttf);
+}
+
+#INFORMACION h3{
+    padding: 5px;
+    font-size: 30px;
+    font-family: them;
+}
+#INFORMACION h2{
+    padding: 5px;
+    font-size: 30px;
+    font-family: them;
+}
+#INFORMACION h4{
+    padding: 5px;
+    font-size: 20px;
+    font-family: moora;
+}
+
+#INFORMACION p{
+    font-size: 28px;
+    font-family: mini;
+}
+#INFORMACION a{
+    font-size: 20px;
+    font-family: them;
+}
+
+#VESTIMENTA h2{
+    padding: 5px;
+    font-size: 30px;
+    font-family: them;
+}
+#VESTIMENTA h3{
+    padding: 5px;
+    font-size: 30px;
+    font-family: them;
+}
+#VESTIMENTA h4{
+    padding: 5px;
+    font-size: 25px;
+    font-family: moora;
+}
+#VESTIMENTA p{
+    font-size: 28px;
+    font-family: mini;
+}
+#ASISTENCIA a{
+    font-size: 20px;
+    font-family: them;
+}
+#ASISTENCIA p{
+    font-size: 28px;
+    font-family: mini;
+}
+
+

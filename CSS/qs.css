@@ -1,0 +1,150 @@
+/* Reseteo de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh; 
+    font-family: 'Arial', sans-serif; 
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #5c7591;
+    color: white; 
+    padding: 15px 20px; 
+    position: relative; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header .logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain; /* Mantiene la proporción del logo */
+}
+
+header nav {
+    position: relative;
+}
+
+header nav .nav-toggle {
+    background: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: white; 
+    z-index: 2;
+    transition: color 0.3s;
+}
+
+header nav .nav-toggle:hover {
+    color: #e0e0e0;
+}
+
+header nav .nav-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 320px;
+    height: 100%;
+    background-color: #343a40;
+    color: white;
+    transform: translateX(100%);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: -4px 0 20px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+header nav .nav-menu.show {
+    transform: translateX(0);
+    box-shadow: -4px 0 20px rgba(0, 0, 0, 0.3);
+}
+
+header nav .nav-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav .nav-menu ul li {
+    margin-bottom: 20px;
+}
+
+header nav .nav-menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header nav .nav-menu ul li a:hover {
+    background-color: #495057;
+    color: #f8f9fa;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.TAH {
+    font-size: 2.5em; /* Ajustado para una mejor visibilidad */
+    color: #333;
+    text-align: center;
+    margin-top: 20px; /* Espacio ajustado para mejor apariencia */
+}
+
+.tagline {
+    font-size: 1.5em;
+    color: #555;
+    text-align: center;
+    font-style: italic;
+}
+
+.description {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.description strong {
+    color: #000; /* Ajustado para destacar en el texto */
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.contact-msg {
+    font-size: 1.2em;
+    color: #444;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    margin-top: auto;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}

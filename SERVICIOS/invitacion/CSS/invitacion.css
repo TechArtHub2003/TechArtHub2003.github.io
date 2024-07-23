@@ -1,0 +1,229 @@
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*ININCIO*/
+#INICIO{
+    background-image: url(/SERVICIOS/invitacion/IMG/invitacion.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+/*INFORMACION*/
+#INFORMACION{
+  padding: 50px 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(215, 35, 113, 0.225);
+  
+  background-image: url(/SERVICIOS/invitacion/IMG/fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#INFORMACION img{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    background-color: rgba(255, 255, 255, 0.648);
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+#iglecia{
+    background-color: rgba(255, 255, 255, 0.648);
+    text-align: center;
+    padding: 35px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+#evento{
+    background-color: rgba(255, 255, 255, 0.648);
+    text-align: center;
+    padding: 35px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#bot{
+        display: inline-block;
+        padding: 8px 16px;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        background-color: rgba(142, 22, 84, 0.768);
+        color: #ffffff;
+        border-radius: 5px;
+        border: 2px solid #000000;
+        cursor: pointer;      
+}
+#bot:active {
+    transform: scale(0.95);
+  }
+  
+  @keyframes pulseButton {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
+  
+  #bot {
+    animation: pulseButton 2s infinite;
+  }
+  
+  
+/*VESTIMENTA */
+#VESTIMENTA{
+  padding: 50px 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(215, 35, 113, 0.225);
+
+  background-image: url(/SERVICIOS/invitacion/IMG/fondo.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#VESTIMENTA div{
+  background-color: rgba(255, 255, 255, 0.648);
+    text-align: center;
+    padding: 35px;
+    border-radius: 20px;
+    border: 2px solid black;
+    
+}
+#VESTIMENTA .cn{
+  display: flex;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+}
+#VESTIMENTA .pl{
+  display: flex;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  background-image: url(/SERVICIOS/invitacion/IMG/pl.jpg);
+}
+
+/*ASISTENCIA*/
+#ASISTENCIA{
+  padding: 50px 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(215, 35, 113, 0.225);
+
+  background-image: url(/SERVICIOS/invitacion/IMG/fondo.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#ASISTENCIA div{
+  background-color: rgba(255, 255, 255, 0.648);
+    text-align: center;
+    padding: 35px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fce4ec; /* Fondo rosa claro */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #d81b60; /* Texto rosa oscuro */
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #d81b60; /* Borde rosa oscuro */
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #d81b60; /* Botón rosa oscuro */
+    color: #ffffff; /* Texto blanco */
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #ad1457; /* Color más oscuro al pasar el mouse */
+  }
+  
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+/*RESPONSIVE*/
+@media (max-width: 800px) {
+    /*INICIO*/
+    #INICIO{
+        flex-direction: column;
+    }
+
+    /*INFORMACION*/
+    #INFORMACION{
+        flex-direction: column;
+    }
+
+    /*VESTIMENTA*/
+    #VESTIMENTA{
+        flex-direction: column;
+    }
+
+    /*ASISTENCIA*/
+    #ASISTENCIA{
+        flex-direction: column;
+    }
+}

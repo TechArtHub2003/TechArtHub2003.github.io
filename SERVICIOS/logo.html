@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechArt Hub</title>
+    <link rel="stylesheet" href="CSS/logo.css">
+</head>
+<body>
+    <header>
+        <img src="IMG/logo1.png" alt="" class="logo">
+        <nav>
+            <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="https://www.facebook.com/profile.php?id=61562823488842&mibextid=ZbWKwL">Contacto</a></li>
+                    <li><a href="/index.html">Inicio</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="logo-presentation">
+            <div class="logo-item" onclick="openModal('IMG/logo1.png', 'Nombre del Logo 1', 'https://www.facebook.com/profile.php?id=61562823488842')">
+                <img src="IMG/logo1.png" alt="Logo 1">
+                <p>TechArt Hub</p>
+            </div>
+            <div class="logo-item" onclick="openModal('IMG/logo2.png', 'Nombre del Logo 2', 'https://www.facebook.com/libertaduaemtex001')">
+                <img src="IMG/logo2.png" alt="Logo 2">
+                <p>Medios IMA</p>
+            </div>
+            <!-- Añade más logos aquí -->
+        </div>
+    
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modal-img" src="" alt="Logo">
+                <p id="modal-title"></p>
+                <button id="modal-button" onclick="goToPage()">Ir a la página</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Pie de Página &copy; 2024</p>
+    </footer>
+    <script src="JS/logo.js"></script>
+</body>
+</html>
